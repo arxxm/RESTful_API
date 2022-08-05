@@ -4,6 +4,7 @@ from flask_restful import Api, Resource, reqparse
 app = Flask(__name__)
 api = Api()
 
+# имитация БД
 courses = {1: {'name': 'Python', 'videos': 15},
            2: {'name': 'Java', 'videos': 10}}
 
